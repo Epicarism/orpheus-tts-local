@@ -1,3 +1,16 @@
+### Multi-Language Support (Italian/Spanish)
+
+This repository also includes example scripts for running fine-tuned models, such as `lex-au/Orpheus-3b-Italian_Spanish-FT-Q8_0.gguf`.
+
+To use a different language model:
+1.  Stop the LM Studio server and load your desired model.
+2.  Start the server again.
+3.  Use the dedicated scripts (`italian_orpheus.py`, `italian_structured_audiobook_generator.py`) which are pre-configured with the correct voice prompts.
+
+**Example command for Italian:**
+```bash
+python italian_orpheus.py --text "Ciao mondo, questo è un test." --voice it-male
+
 # Orpheus-TTS-Local
 
 A lightweight client for running [Orpheus TTS](https://huggingface.co/canopylabs/orpheus-3b-0.1-ft) locally using LM Studio API.
