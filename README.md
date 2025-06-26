@@ -6,10 +6,9 @@ To use a different language model:
 1.  Stop the LM Studio server and load your desired model.
 2.  Start the server again.
 3.  Use the dedicated scripts (`italian_orpheus.py`, `italian_structured_audiobook_generator.py`) which are pre-configured with the correct voice prompts.
+4. EXAMPLE FOR ITALIAN:
+   python italian_orpheus.py --text "Ciao mondo, questo è un test." --voice it-male
 
-**Example command for Italian:**
-```bash
-python italian_orpheus.py --text "Ciao mondo, questo è un test." --voice it-male
 
 # Orpheus-TTS-Local
 
